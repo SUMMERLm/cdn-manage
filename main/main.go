@@ -18,7 +18,7 @@ import (
 * @throws Exception
  */
 func CreateClient(accessKeyId *string, accessKeySecret *string) (_result *domain20180129.Client, _err error) {
-	//	client, _err := CreateClient(tea.String("LTAI5tF2YuFLw8BsE3peimBV"), tea.String("2SLj0xxkOTFvwz7b7EP6IfD1Ahqmib"))
+	//	client, _err := CreateClient(tea.String("BsE3peimBV"), tea.String("EP6IfD1Ahqmib"))
 
 	config := &openapi.Config{
 		// 必填，您的 AccessKey ID
